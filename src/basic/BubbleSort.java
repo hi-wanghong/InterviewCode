@@ -1,4 +1,4 @@
-package interview;
+package basic;
 
 public class BubbleSort {
     public static int[] sort(int[] array){
