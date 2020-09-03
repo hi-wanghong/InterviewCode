@@ -40,9 +40,10 @@ public class lc66_plusOne {
             }
             //如果当前位是9，那么就变成0，之后继续循环即可
             digits[i]=0;
+
         }
 
-        //没有return说明都是9，需要整体加1位
+        //没有return说明都是9，需要整体加1位R
         int[] temp = new int[digits.length+1];
         for(int j=0; j<temp.length; j++){
             if(j == 0)
